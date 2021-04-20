@@ -1,0 +1,141 @@
+.header{
+    background-image: url(https://cdn.wallpapersafari.com/66/82/pKCuAG.png);
+    background-repeat: no-repeat;
+    height: 450px;
+}
+.name{
+    color: azure;
+    font-size: 27px;
+    font-weight: 500;
+    position: relative;
+    top: 75px;
+    padding-left: 30px;
+    font-family: 'Zen Dots';
+}
+li{
+    list-style: none;
+    float: left;
+}
+ul li{
+    display:inline-block; 
+    padding:0 10px; 
+    position:relative;
+    left: 1000px;
+    top: 28px;
+    color: #ffffff;
+    font-family: 'Nunito', Courier, monospace;
+    font-size: 17px ;
+  }
+  ul li:not(:last-child)::after{
+    content:""; 
+    border:1px solid #ffffff;
+    border-width: 1px 1px 0 0;
+    position:absolute; 
+    right:-3px; 
+    top:0; 
+    height:100%;
+  }
+a{
+    text-decoration: none;
+}
+a:hover{
+    text-decoration: dashed;
+}
+.nav a {
+    text-decoration-style: none;
+    display: inline-block;
+    padding: 0 5px;
+    color: white;
+    font-family: 'Nunito', Courier, monospace;
+}
+.nav a:hover{
+    color: rgb(238, 146, 25);
+    text-decoration-style: dashed;
+}
+.nav{
+    float: left;
+}
+.intro{
+    color: azure;
+    position: relative;
+    width: 1045px;
+}
+.intro-start{
+    font-size: 45px;
+    position: relative;
+    top: 200px;
+    left: 150px;
+}
+.intro1{
+    font-size: 28px;
+    position: relative;
+    top: 200px;
+    left: 450px;
+    width: 565px;
+    margin-block-end: 0;
+    margin-block-start: 0;
+    margin-inline-end: 0;
+    margin-inline-start: 0;
+    font-family: "Cormorant Garamond";
+}
+.intro2{
+    font-size: 28px;
+    position: relative;
+    top: 200px;
+    left: 486px;
+    width: 529px;
+    font-family: "Cormorant Garamond";
+}
+body{
+    margin: 0;
+    
+}
+p{
+    margin: 0;
+}
+span.imp{
+    font-weight: 900;
+}
+h2{
+    color: rgb(129, 129, 129);
+    font-size: 40px;
+    font-weight: 450;
+    position: relative;
+    left: 550px;
+    width: 713px;
+    height: 32px;
+    margin: 3px 0 5px 0;
+    padding-bottom: 5px;
+    background-color: rgb(255, 255, 255);
+}
+hr {
+    border:none;
+    border-top:2px dashed rgb(158, 158, 158);
+    color:#fff;
+    background-color:#fff;
+    height:1px;
+    width:97%;
+    margin-bottom: 0;
+  }
+  .main-sub{
+      background-color: rgb(248, 231, 164);
+  }
+  .dp2{
+      position: relative;
+      float: left;
+      margin-left:8px ;
+      margin-top: 5px;
+      padding: 0 17px 0 10px;
+      border-right: 2px dashed rgb(158, 158, 158);
+      border-radius: 2px;
+  }
+  .main1{
+     float: right;
+      width: 45%;
+      padding: 10px;
+      margin: 5px;
+      font-size: 18.5px;
+      font-family: "Quicksand";
+      font-weight: 600;
+  }
+ 
